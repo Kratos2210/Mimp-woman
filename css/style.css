@@ -1,0 +1,86 @@
+    
+  body {
+    padding: 50px 0px 0px 0px;
+   }
+   /* Estilo de la cabecera */
+   .navbar {
+    background-color: rgb(181, 179, 184); 
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+/* Estlo carrusel */
+
+.carousel {
+    background: rgb(79, 78, 80); 
+   
+  }
+    
+    .carousel .carousel-item {
+      height: 300px; 
+      
+    }
+      .carousel .carousel-item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 300px; }
+  
+  
+  .col {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .titulo-servicio,h3{
+    text-align: center;
+    padding-top: 14px;
+  }
+
+  /* Servicio */
+
+.service {
+    width: 100px;
+    height: 100px;
+    padding: 60px;
+    color: #fff;
+    border-radius: 50%;
+    margin: 0px auto;
+    border: solid 1px rgb(122, 119, 121);
+  
+  }
+  
+  .service:hover{
+  
+      background-color: rgb(122, 119, 121);
+    
+  }
+
+  .ser1{
+      text-align: center;
+      padding: 0.1rem;
+  }
+
+  .container {
+    padding: 2rem;
+    justify-content: center;
+}
+
+
+ /* Linea 100 */
+
+ 
+
+  .linea{
+    margin-top: 2.5rem;
+    justify-content: center;
+  }
+
+ img {
+    border: solid 1px rgb(122, 119, 121);
+ }
+ .des-linea100 {
+    text-align: justify;
+    font-size: 1.5rem;
+    justify-content: center;
+    padding: 4rem;
+ }
