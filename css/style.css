@@ -1,12 +1,13 @@
     
   body {
-    padding: 50px 0px 0px 0px;
+    padding: 0px;
+    margin: 0px;
    }
    /* Estilo de la cabecera */
    .navbar {
     background-color: rgb(181, 179, 184); 
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   
 /* Estlo carrusel */
@@ -31,7 +32,7 @@
     padding: 0px 0px 0px 0px;
   }
 
-  .titulo-servicio,h3{
+  .titulo-servicio,h2,h3{
     text-align: center;
     padding-top: 14px;
   }
@@ -41,7 +42,7 @@
 .service {
     width: 100px;
     height: 100px;
-    padding: 60px;
+    padding: 4rem;
     color: #fff;
     border-radius: 50%;
     margin: 0px auto;
@@ -60,27 +61,123 @@
       padding: 0.1rem;
   }
 
-  .container {
-    padding: 2rem;
+  .servicios-pri {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     justify-content: center;
 }
 
 
+.row{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
  /* Linea 100 */
 
- 
+ .container-fluid{
 
-  .linea{
+    padding: 0;
+    margin: 0;
+ }
+
+  .linea,.toximetro{
     margin-top: 2.5rem;
     justify-content: center;
   }
 
  img {
     border: solid 1px rgb(122, 119, 121);
+    justify-content: center;
  }
  .des-linea100 {
-    text-align: justify;
     font-size: 1.5rem;
-    justify-content: center;
-    padding: 4rem;
+    text-align: justify;
+    padding: 1rem;
+   
  }
+
+  /* Toximetro*/
+
+  .des-toximetro{
+
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 1rem;
+    
+  }
+
+  span {
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.body-img{
+   
+    justify-content: center;
+}
+
+.heah-img {
+    
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.body-svg{
+    
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 1.5rem;
+}
+
+svg {
+  
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-right: 0.8rem;
+    width: 100px;
+    height: 100px;
+}
+
+.stored{
+    margin-right: 2.5rem;
+}
+
+
+ /* Formacion*/
+
+ img {
+
+    width: 25rem;
+    height: 25rem;
+ }
+
+ .forma {
+   
+    text-align: justify;
+    padding: 1rem;
+
+ }
+
+ .Explora {
+    text-align: center;
+ }
+
+
+/*Footer */
+
+
+ footer{
+
+    background-color: rgb(162, 162, 163);
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+    height: 40rem;
+  }
+
+  
